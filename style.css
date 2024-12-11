@@ -1,0 +1,873 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #050505;
+    font-family: "Montserrat", sans-serif;
+    min-width: 320px;
+}
+
+
+.container {
+    width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.header {
+    background-color: #4B92DE;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 72px;
+    height: 67px;
+    margin-right: 25px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.navbar a {
+    transition: all 0.2s;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    color: rgb(219, 219, 219);
+}
+
+.navbar a:active {
+    line-height: 1;
+    transform: scale(0.95);
+}
+
+.logo-text a {
+    transition: all 0.2s;
+}
+
+.logo-text a:hover {
+    transform: scale(1.05);
+}
+
+.logo-text a:active {
+    transform: scale(0.95);
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+.block_1 {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #082547;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: #fff;
+    line-height: 90px;
+    margin-bottom: 4px;
+    font-size: 64px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 696px;
+    
+}
+
+.block1_text1 {
+    line-height: 34px;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    max-width: 696px;
+    text-align: justify;
+}
+
+.block1_img {
+    width: 605px;
+    height: 418px;
+}
+
+.block2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    color: #082547;
+    font-weight: bold;
+}
+
+.text-block2 {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.ekzamen {
+    border: 2px solid #050505;
+    border-radius: 20px;
+    width: 544px;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 2px;
+    height: 113px;
+    margin-right: 52px;
+    margin-left: 53px;
+}
+
+.ekzamen-text {
+    font-size: 32px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.margin {
+    margin-bottom: 50px;
+}
+
+.zayavka {
+    width: 100%;
+    min-height: 324px;
+    border-radius: 20px;
+    background-color: #4B92DE;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block-zay-text1 {
+    text-align: center;
+    width: 251px;
+    height: 234px;
+    margin-top: -5px;
+    margin-right: 15px;
+}
+
+.zay-text:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.zay-glav {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 56px;
+}
+
+.zay-text {
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 500;
+}
+
+.logo-zay {
+    width: 252px;
+    height: 234px;
+}
+
+.width {
+    width: 438px;
+}
+
+.glav-kaf {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.otmena {
+    white-space: nowrap;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+
+.glav-name {
+    font-size: 52px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 140px;
+    line-height: 73px;
+}
+
+.glav-contact {
+    font-size: 52px;
+    line-height: 73px;
+}
+
+.designer {
+    width: 512px;
+    height: 512px;
+}
+
+
+
+.prepods {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 110.5px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.prepod {
+    width: 373px;
+    height: 539px;
+    position: relative;
+}
+
+.prepimg {
+    width: 373px;
+    margin-bottom: -31px;
+}
+
+.block {
+    width: 373px;
+    
+    background-color: #4B92DE;
+    position: absolute;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 18.65px;
+    padding-right: 18.65px;
+}
+
+.text-prep {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+.text-prep-sub {
+    color: white;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 98px;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: #4B92DE;
+}
+
+.new {
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0, 0.3));
+    color: #fff;
+    width: 348px;
+    height: 309px;
+    border-radius: 20px;
+    background: url(img/student1.png);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.studentimg {
+   
+    width: 348px;
+    height: 309px;
+    border-radius: 20px;
+   
+}
+
+.text-news {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.3px;
+}
+
+.arrow {
+    width: 39px;
+    height: 25px;
+    transition: all 0.2s;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.arrow:active {
+    transform: scale(0.9);
+}
+
+.text-news1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.text-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back {
+    background: url(img/konkurs.png);
+}
+
+.back1 {
+    background: url(img/class.png);
+}
+
+.back2 {
+    background: url(img/midjourney.png);
+}
+
+.back3 {
+    background: url(img/zal.png);
+}
+
+.back4 {
+    background: url(img/kraski.png);
+}
+
+.overlay {
+    display: none; /* Скрываем затемняющий фон по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный цвет */
+    z-index: 1; /* Должен быть позади модального окна */
+    animation: sliders 0.3s forwards;
+    opacity: 0%;
+}
+
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed; /* Фиксированное позиционирование */
+    z-index: 2; /* Делаем его сверху над затемнением */
+    left: 50%; /* Центрирование по горизонтали */
+    top: 50%; /* Центрирование по вертикали */
+    transform: translate(-50%, -50%); /* Смещение для точного центрирования */
+    width: 50%; /* Ширина 50% от экрана */
+    background-color: white; /* Цвет фона модального окна */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    border-radius: 20px; /* Закругленные углы */
+    overflow: hidden; /* Скрываем переполнение */
+    transition: all 0.5s;
+    opacity: 0%;
+    animation: sliders 0.3s forwards;
+
+}
+
+.modal.show {
+    display: block; /* Показываем модальное окно */
+    opacity: 1; /* Полная видимость */
+}
+
+@keyframes sliders {
+    to {
+        opacity: 1;
+    }
+}
+
+.modal-content {
+    padding: 30px; 
+}
+
+.modal-content img {
+    transform: scale(0.8);
+    border-radius: 20px;
+}
+
+.modal-content p {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.close {
+    color: #aaa; /* Цвет для кнопки закрытия */
+    float: right; /* Выравнивание кнопки закрытия вправо */
+    font-size: 28px; /* Размер шрифта кнопки закрытия */
+    font-weight: bold; /* Жирный шрифт */
+    margin-left: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: black; /* Цвет при наведении */
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer; /* Курсор в виде руки */
+}
+
+.questions {
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+.questions_container {
+    padding: 45px;
+   
+    
+    background-color: #082547;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+    min-height: 351px;
+ 
+}
+
+.width2 {
+    width: 769px;
+
+}
+
+.questions_h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.questions_text {
+    
+    font-size: 24px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 29px;
+}
+
+.questions_buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions_buttons a {
+    padding: 12px 25px 12px 25px;
+    border-radius: 20px;
+    background-color: #4B92DE;
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 341px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.questions_buttons a:hover {
+    transform: scale(1.05);
+    background-color: #3c74b1;
+}
+
+.questions_buttons a:active {
+    transform: scale(0.95);
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #4B92DE;
+    justify-content: space-between;
+}
+
+.footer1 {
+    display: flex;
+   
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    flex-direction: column;
+    display: flex;
+    font-size: 24px;
+    
+    color: white;
+    justify-content: space-between;
+}
+
+.footer_logo img {
+    width: 342px;
+    height: 67px;
+}
+
+.footer_logo a {
+    transition: all 0.2s;
+}
+
+.footer_logo a:hover {
+    transform: scale(1.05);
+}
+
+.footer_logo a:active {
+    transform: scale(0.95);
+}
+
+.footer_links {
+    flex-direction: column;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    gap: 17px;
+    justify-content: space-between;
+    text-wrap: wrap;
+}
+
+.footer_links a {
+    color: white;
+    transition: all 0.2s;
+}
+
+.footer_links2 a {
+    color: white;
+    transition: all 0.2s;
+}
+
+.footer_links2 a:hover {
+    color: rgb(219, 219, 219);
+}
+
+.footer_links a:hover {
+    color: rgb(219, 219, 219);
+}
+
+.footer_links a:active {
+    transform: scale(0.95);
+}
+
+.footer_links2 a:active {
+    transform: scale(0.95);
+}
+
+.footer_links2 {
+    flex-direction: column;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    gap: 17px;
+    justify-content: space-between;
+    text-wrap: wrap;
+}
+
+.footer_links_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-40%);
+    animation: slideIn 1s forwards;
+}
+
+.slide-inn {
+    opacity: 0;
+    transform: translateX(-40%);
+    animation: slideIn 1.7s forwards;
+}
+
+.slide-innn {
+    opacity: 0;
+    transform: translateX(40%);
+    animation: slideIn 1.7s forwards;
+}
+
+.slide-in.appear {
+    opacity: 0;
+    transform: translateX(40%);
+    animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in3 {
+    opacity: 0%;
+    transform: translateY(-70%);
+    transition: all 1.2s;
+}
+
+.slide-in3.appear {
+    opacity: 100%;
+    transform: translateY(0%);
+}
+
+.slide-in4 {
+    opacity: 0%;
+    transition: all 1.5s;
+    transition-delay: 1s;
+}
+
+.slide-in4.appear {
+    opacity: 100%;
+}
+
+.slide-in5 {
+    opacity: 0%;
+    transform: translateY(20%);
+    transition: all 1.5s;
+}
+
+.slide-in5.appear {
+    transform: translateY(0%);
+    opacity: 100%;
+}
+
+.slide-in5 {
+    opacity: 0%;
+    transform: translateY(20%);
+    transition: all 1.5s;
+}
+
+.slide-in5 {
+    opacity: 0%;
+    transform: translateY(20%);
+    transition: all 1.5s;
+}
+
+.slide-in5.appear {
+    transform: translateY(0%);
+    opacity: 100%;
+}
+
+.slide-in6 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 0.8s;
+}
+
+.slide-in6.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in7 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 0.5s;
+}
+
+.slide-in7.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in8 {
+    transform: translateX(-20%);
+    opacity: 0%;
+    transition: all 0.6s;
+}
+
+.slide-in8.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in9 {
+    transform: translateX(-20%);
+    opacity: 0%;
+    transition: all 0.7s;
+}
+
+.slide-in9.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in10 {
+    transform: translateX(30%);
+    opacity: 0%;
+    transition: all 1s;
+}
+
+.slide-in10.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in11 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 0.5s;
+}
+
+.slide-in11.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in12 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 0.6s;
+}
+
+.slide-in12.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in13 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 0.7s;
+}
+
+.slide-in13.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in14 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 0.8s;
+}
+
+.slide-in14.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in15 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 0.9s;
+}
+
+.slide-in15.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in16 {
+    transform: translateX(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.slide-in16.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+.slide-in17 {
+    opacity: 0%;
+    transition: all 0.4s;
+}
+
+.slide-in17.appear {
+    opacity: 100%;
+}
+
+.slide-in18 {
+    transform: translateY(-30%);
+    opacity: 0%;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.slide-in18.appear {
+    transform: translateX(0%);
+    opacity: 100%;
+}
+
+
+
+
+

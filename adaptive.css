@@ -1,0 +1,431 @@
+@media (max-width: 1457px) {
+    .container {
+        width: 100%;
+    }
+    .prepods {
+        justify-content: center;
+    }
+    .news {
+        justify-content: center;
+    }
+    .block2-text {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1457px) {
+    
+    .block2-text {
+        margin-bottom: 30px;
+    }
+    .block1_text {
+        margin-right: 30px;
+    }
+    .logo-text {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1447px) {
+    
+   h1 {
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+   }
+   .block1_text1 {
+    max-width: 100%;
+    margin-bottom: 20px;
+   }
+   .block1_text {
+    margin-right: 0;
+}
+.flex {
+    justify-content: center;
+}
+.modal {
+    width: 70%;
+}
+
+}
+
+@media (max-width: 1413px) {
+    .block2-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1327px) {
+    
+    h1 {
+     white-space: wrap;
+     text-align: center;
+     justify-content: center;
+     max-width: 100%;
+    }
+    .block1_text1 {
+     max-width: 100%;
+     margin-bottom: 20px;
+    }
+    .block1_text {
+     margin-right: 0;
+ }
+ .flex {
+     justify-content: center;
+ }
+ }
+
+ @media (max-width: 1196px) {
+    
+   .otmena {
+    position: inherit;
+    white-space: wrap;
+    margin-bottom: 0;
+   }
+   .block3_text {
+    width: 100%;
+    text-align: center;
+   }
+   .glav-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .glav-kaf {
+    justify-content: center;
+   }
+    
+ }
+
+ @media (max-width: 1177px) {
+    
+    .zayavka {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+ }
+
+
+
+@media (max-width: 1155px) {
+    h2 {
+        text-align: center;
+    }
+    .footer_logo {
+        margin-right: 20px;
+    }
+   .header-text {
+    display: none;
+   }
+   .logo {
+    margin: 0;
+   }
+   .nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   .navbar {
+   justify-content: center;
+   }
+   .block_1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+   }
+   .block2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+   }
+   .glav-kaf {
+    margin-bottom: 80px;
+   }
+   .prepods {
+   
+    margin-bottom: 80px;
+   }
+   .questions {
+    margin-bottom: 80px;
+    margin-top: 80px;
+   }
+   .arrow {
+        height: 45px;
+        width: 60px;
+        padding-top: 20px;
+        padding-left: 20px;
+   }
+   .footer_links {
+    gap: 0;
+   }
+   .footer_links2 {
+    gap: 0;
+   }
+   .footer_links a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   .footer_links2 a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   .modal {
+    width: 70%;
+}
+.close {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+}
+
+@media (max-width: 1010px) {
+    .footer_logo {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .footer_logo a {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .footer1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_links_container {
+       gap: 25px;
+    }
+    
+}
+
+@media (max-width: 907px) {
+    .width2 {
+        width: 100%;
+    }
+    .questions_buttons {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .modal {
+        width: 85%;
+    }
+}
+
+@media (max-width: 812px) {
+    h1 {
+        margin-bottom: 20px;
+    }
+    .block1_text1 {
+        max-width: 100%;
+        margin-bottom: 40px;
+       }
+  }
+
+  @media (max-width: 721px) {
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .modal-content {
+        padding: 20px;
+    }
+    .questions_h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .block1_text1 {
+        font-size: 20px;
+        line-height: 1.2;
+       }
+       .text-block2 {
+        font-size: 20px;
+        line-height: 1.2;
+       }
+       .glav-name {
+        font-size: 30px;
+        line-height: 1.2;
+       }
+       .glav-contact {
+        font-size: 30px;
+        line-height: 1.2;
+       }
+       .designer {
+        width: 300px;
+        height: 300px;
+       }
+
+       .block1_img {
+        width: 420px;
+        height: 310px;
+       }
+       .logo-zay {
+        display: none;
+       }
+       .block-zay-text1 {
+        
+        
+        height: 100%;
+        
+    }
+    .footer1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .p_fot {
+        display: none;
+    }
+  }
+
+  @media (max-width: 645px) {
+    
+  }
+
+@media (max-width: 600px) {
+    
+   .container {
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .logo-text {
+    margin-right: 20px;
+   }
+ }
+
+ @media (max-width: 530px) {
+    .modal {
+        width: 95%;
+    }
+   .ekzamen {
+    display: none;
+   }
+   .new {
+    padding: 25px;
+   }
+   .news {
+    padding: 25px;
+   }
+
+  }
+
+ @media (max-width: 457px) {
+    .modal-content h3 {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .questions_container {
+        padding: 20px;
+    }
+    .questions_text {
+        font-size: 18px;
+        line-height: 1.1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .questions_h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .prepods {
+        row-gap: 1px;
+        justify-content: center;
+    }
+    .prepod {
+        width: 300px;
+        height: 500px;
+    }
+
+    .pt {
+        height: 520px;
+    }
+    .prepimg {
+        width: 300px;
+        height: 380px;
+    }
+    .block {
+        width: 300px;
+        
+    }
+    .glav-name {
+        font-size: 25px;
+        line-height: 1.2;
+       }
+       .glav-contact {
+        font-size: 25px;
+        line-height: 1.2;
+       }
+    .block1_text1 {
+        font-size: 15px;
+        line-height: 1;
+       }
+       .text-block2 {
+        font-size: 15px;
+        line-height: 1;
+       }
+       .zay-text {
+        font-size: 15px;
+        line-height: 1;
+    }
+    .zay-glav {
+        font-size: 25px;
+    }
+    .margin {
+        margin-bottom: 5px;
+    }
+    .zayavka {
+        padding: 15px;
+    }
+    .block1_img {
+        width: 260px;
+        height: 190px;
+       }
+    .block_1 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .block2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+       }
+       .glav-kaf {
+        margin-bottom: 40px;
+       }
+       .prepods {
+        margin-top: 20px;
+        margin-bottom: 50px;
+       }
+       .questions {
+        margin-bottom: 40px;
+        margin-top: 40px;
+       }
+       .news {
+        margin-top: 20px;
+       }
+       .footer_logo img {
+        width: 280px;
+        height: 60px;
+       }
+  }
+
+
+ @media (max-width: 340px) {
+ 
+    .logo-text {
+     margin-right: 10px;
+    }
+  }
